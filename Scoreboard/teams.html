@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./styles/teams.css">
+  <script type="module" src="./scripts/teams.js"></script>
+  <title>Select Teams</title>
+</head>
+<body>
+    <div class="inner">
+    <h1>Match Setup</h1>
+    <div id="t1">
+      <input type="text" placeholder="Team 1 Name" id="teamOne" required >
+      <select id="teamOneIcon" required>
+        <option value="" disabled selected>Team Icon</option>
+        <option value="0">Thanos</option>
+        <option value="1">Rocket</option>
+        <option value="2">Panther</option>
+        <option value="3">King</option>
+        <option value="4">Wolf</option>
+        <option value="5">Groot</option>
+      </select>
+    </div>
+    <div id="t2">
+      <input type="text" placeholder="Team 2 Name" id="teamTwo" required >
+      <select id="teamTwoIcon" required >
+        <option value="" disabled selected >Team Icon</option>
+        <option value="0">Thanos</option>
+        <option value="1">Rocket</option>
+        <option value="2">Panther</option>
+        <option value="3">King</option>
+        <option value="4">Wolf</option>
+        <option value="5">Groot</option>
+      </select>
+    </div>
+    <select id="gameOvers" required>
+      <option value="2">Game Overs: 2</option>
+      <option value="5">Game Overs: 5</option>
+      <option value="10">Game Overs: 10</option>
+    </select>
+    <input type="submit" id="startPlaying" value="Start Playing" >
+  </div>
+</body>
+
+</html>

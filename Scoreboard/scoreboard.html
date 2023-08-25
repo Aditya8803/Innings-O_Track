@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta name="viewport" content="width=device-width, initial-scale=4">
+<head>
+    <link rel="stylesheet" href="./styles/scoreboard.css">
+    <script type="module" src="./scripts/scoreboard.js"></script>
+    <title>ScoreBoard</title>
+</head>
+<body>
+    <div class="header">
+        <div class="field">
+
+            <div class="head"><img class="bat" src="./images/bat.png" alt="" srcset="" id="bat">
+                <h1>Innings-<div> <img class="ball" src="./images/cricket-ball (2).png" alt="O"></div>-Track</h1>
+            </div>
+        </div>
+    </div>
+    <div class="inner">
+        <div>
+            <div class="leftimage" >
+                <img src="" alt="Team1Icon" id="leftImage">
+            </div>
+            <div class="information">
+                <h1 id="h11"></h1>
+            </div>
+            <div class="batOrField">
+                <h2 id="teamOneStatus"></h2>
+            </div>
+        </div>
+        
+        <div>
+            <div class="rightimage" >
+                <img src="" alt="Team2Icon" id="rightImage">
+            </div>
+            <div class="information">
+                <h1 id="h13"></h1>
+            </div>
+            <div class="batOrField">
+                <h2 id="teamTwoStatus"></h2>
+            </div>
+        </div>
+    </div>
+            <div class="firstInningScore">
+                <h2 id="innOneScore"></h2>
+                <div class="sub">
+                    <h2 id="innOneRuns"></h2>
+                    <h2 id="innOneWickets"></h2>
+                </div>
+
+            </div>
+                <div class="scorediv">
+                    <div class="information">
+                        <h1 id="h12"></h1>
+                    </div>
+                    <div class="middle">
+                        <div class="runswicket">
+                            <h1 id="runs"></h1>
+                            <h1 id="slash"></h1>
+                            <h1 id="wicket"></h1>
+                        </div>
+                        <div class="totalovers">
+                            <h2 id="textOvers"></h2>
+                            <h2 id="overs"></h2>
+                            <h2 id="dot"></h2>
+                            <h2 id="balls"></h2>
+                        </div>
+                        <div class="runRate">
+                            <h2 id="rr"></h2>
+                        </div>
+                        <div class="target">
+                            <h2 id="targetruns"></h2>
+                        </div>
+                    </div>
+                </div>
+            <div class="timeline">
+                <h3>This Over:</h3>
+                <h3 id="timelineOvers"> </h3>
+            </div>
+    <div id="btn">
+        <div class="scoringButtons">
+            <label for="">
+                <div class="first">
+                    
+                     <!-- 0 BUTTON -->
+                     <div class="left">
+                        <input type="submit" value="0" disabled id="zeroButton">
+                    </div>
+                    <!-- WICKET BUTTON -->
+                    <div class="leftmid">
+                        <input type="submit" id="wicketButton" disabled value="Wicket">
+                    </div>
+                    <!-- BYE BUTTON -->
+                    <div class="rightmid">
+                        <input type="submit" id="byeButton" disabled value="Bye">
+                    </div>
+                    <!-- LEGBYE BUTTON -->
+                    <div class="right">
+                        <input type="submit" disabled value="LegBye" id="legbyeButton">
+                    </div>
+                </div>
+
+                <div class="second">
+                   
+                    <!-- 1 BUTTON -->
+                    <div class="leftmid">
+                        <input type="submit" value="1" disabled id="oneButton">
+                    </div>
+                    <!-- 2 BUTTON -->
+                    <div class="rightmid">
+                        <input type="submit" value="2" disabled id="twoButton">
+                    </div>
+                    <!-- 3 BUTTON -->
+                    <div class="left">
+                        <input type="submit" value="3" disabled id="threeButton">
+                    </div>
+                    <!-- WIDE BUTTON -->
+                    <div class="right">
+                        <input type="submit" value="Wide" disabled id="wideButton">
+                    </div>
+                </div>
+
+                <div class="third">
+                    
+                    <!-- 4 BUTTON -->
+                    <div class="leftmid">
+                        <input type="submit" value="4" disabled id="fourButton">
+                    </div>
+                    <!-- 5 BUTTON -->
+                    <div class="leftmid">
+                        <input type="submit" value="5" disabled id="fiveButton">
+                    </div>
+                    <!-- 6 BUTTON -->
+                    <div class="rightmid">
+                        <input type="submit" value="6" disabled id="sixButton">
+                    </div>
+                    <!-- NO-BALL BUTTON -->
+                    <div class="right">
+                        <input type="submit" disabled value="No-Ball" id="noballButton">
+                    </div>
+                </div>
+                <!-- End OF Innings -->
+                <div class="fourth">
+                    <input type="submit" disabled value="End Of Innings" id="endInningsButton">
+                    <!--Undo Button-->
+                    <input type="submit" disabled value="Undo" id="undoButton">
+                </div>
+
+                <div class="fifth">
+                    <!-- START BUTTON -->
+                    <div class="left">
+                        <input type="submit" value="Start" id="startButton">
+                    </div>
+                    <!-- Match Setup -->
+                    <!-- <input type="submit" value="Go To Welcome Page" id="welcomePage"> -->
+                </div>
+            </label>
+        </div>
+
+    </div>
+    <footer>
+        <span id="symb">&copy;</span> Copyright SKIT 2023
+    </footer>
+</body>
+
+</html>

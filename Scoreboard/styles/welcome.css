@@ -1,0 +1,173 @@
+* {
+    padding: 0;
+    margin: 0;
+
+}
+
+body {
+    background-color: #0e0d0d;
+
+}
+
+
+.main {
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+    top: 12vw;
+
+
+}
+
+
+.second {
+    padding: 5vh;
+    font-size: 9vw;
+    justify-content: center;
+    position: relative;
+    margin-top: 8vh;
+}
+
+.second h1 {
+    color: #2ebf75;
+    text-align: center;
+}
+
+.second h2 {
+    margin-left: 45%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    color: white;
+    font-size: 4vw;
+    text-align: center;
+    width: 5vw;
+}
+
+#name {
+    font-size: 10vw;
+    background-color: white;
+    color: #0e0d0d;
+    text-align: center;
+
+}
+
+.container {
+    display: flex;
+    margin-top: 15vh;
+    height: 20vmax;
+    width:60%;
+    position: relative;
+    max-height: 21vw;
+    justify-content: space-between;
+    
+}
+.card {
+
+    position: absolute;
+    height: 25vmax;
+    width: 100%;
+    max-height: 35vmin;
+    background-color: #ffffff10;
+    border-radius: 1vw;
+    box-shadow: 1vw 1vw 1vw #00000049;
+    backdrop-filter: blur(0.8vw);
+}
+
+.groot {
+    background-color: #0e0d0d00;
+    position: absolute;
+    top: -22vw;
+    right: -21vw;
+    width: 80%;
+  
+
+
+}
+
+.cir1 {
+    height: 32vw;
+    width: 32vw;
+    position: absolute;
+    background: linear-gradient(45deg,
+            #61d954,
+            #2ebf75);
+    border-radius: 50%;
+    right: -10vw;
+    top: -15vw;
+}
+
+.cir2 {
+    height: 20vw;
+    width: 20vw;
+    position: absolute;
+    background: linear-gradient(45deg,
+            #ee2d2d,
+            #eeb013);
+    border-radius: 50%;
+    left: -6vw;
+    bottom: -10vh;
+}
+
+
+.card-text {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+}
+
+.card-text h1 {
+    margin-top: 1vw;
+    color: white;
+    position: relative;
+    text-align: center;
+    font-weight: bold;
+    font-size: 5vmin;
+}
+
+.card-text p {
+    margin:auto 2vw;
+    color: #eee;
+    position: relative;
+    text-align: center;
+    margin-top: 3vw;
+    font-size: 4.3vmin;
+}
+
+.button {
+
+    margin-top: 30vmin;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2vh;
+
+}
+.button h1{
+    color:white;
+    margin: auto 1vw;
+    font-size:5vw;
+}
+.btn{
+
+    border-color:#2ebf75;
+    width: 50%;
+    height: 10vmin;
+}
+input[type=button]{
+    background: #0e0d0d;
+    color: whitesmoke;
+    border-radius: 1vmin;
+    font-size: 4.4vw;
+    
+    
+}
+input[type=button]:hover{
+    color:#2ebf75;
+    border-color: white;
+    transform:translateX(4vw);
+
+}
