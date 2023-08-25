@@ -1,0 +1,4 @@
+The repository named Innings-O-Track provides with the complete code for the cricket scoring app named Innings-O-Track.
+This Repository contains 4 .html files named welcome.html,teams.html,toss.html,scoreboard.html and 4 .css and 4 .js files
+linked to the above mentioned .html files.
+This project enables the user to manage the live cricket scores of the match.
