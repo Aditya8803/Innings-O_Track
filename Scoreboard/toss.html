@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Flip A Coin</title>
@@ -8,13 +9,19 @@
     <!--Stylesheet-->
     <link rel="stylesheet" href="./styles/toss.css">
     <script src="./scripts/toss.js" type="module"></script>
+    <link rel="shortcut icon" href="./images/icon-192x192.png" />
+
 </head>
+
 <body>
+    <header>
+        <a href="javascript: history.go(-1)" class="previous round">&#8249;</a>
+    </header>
     <img src="" alt="" id="leftHalf">
     <img src="" alt="" id="rightHalf">
     <div class="container">
         <div class="buttons">
-            <button id="bat" >Bat</button>
+            <button id="bat">Bat</button>
             <button id="field">Field</button>
         </div>
         <div class="coin" id="coin">
@@ -32,4 +39,5 @@
         </div>
     </div>
 </body>
+
 </html>

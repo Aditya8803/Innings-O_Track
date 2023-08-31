@@ -169,5 +169,7 @@ input[type=button]:hover{
     color:#2ebf75;
     border-color: white;
     transform:translateX(4vw);
+    color: #2ebf75;
+    border-color: white;
 
 }

@@ -1,12 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
-<meta name="viewport" content="width=device-width, initial-scale=4">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <head>
     <link rel="stylesheet" href="./styles/scoreboard.css">
     <script type="module" src="./scripts/scoreboard.js"></script>
     <title>ScoreBoard</title>
+  <link rel="shortcut icon" href="./images/icon-192x192.png" />
+
 </head>
 <body>
+    <header>
+        <a href="javascript: history.go(-1)" class="previous round">&#8249;</a>
+    </header>
     <div class="header">
         <div class="field">
 
@@ -17,29 +22,38 @@
     </div>
     <div class="inner">
         <div>
+            <!-- Icon Team1  -->
             <div class="leftimage" >
                 <img src="" alt="Team1Icon" id="leftImage">
             </div>
+            <!-- team One Name -->
             <div class="information">
                 <h1 id="h11"></h1>
             </div>
+            <!-- BAtting/Bowling Status -->
             <div class="batOrField">
                 <h2 id="teamOneStatus"></h2>
             </div>
         </div>
         
         <div>
+            <!-- Icon Team2  -->
             <div class="rightimage" >
                 <img src="" alt="Team2Icon" id="rightImage">
             </div>
+            <!-- team Two Name -->
+
             <div class="information">
                 <h1 id="h13"></h1>
             </div>
+            <!-- BAtting/Bowling Status -->
+
             <div class="batOrField">
                 <h2 id="teamTwoStatus"></h2>
             </div>
         </div>
     </div>
+    <!-- First innings score -->
             <div class="firstInningScore">
                 <h2 id="innOneScore"></h2>
                 <div class="sub">
@@ -48,6 +62,7 @@
                 </div>
 
             </div>
+            <!-- Scoreboard Start -->
                 <div class="scorediv">
                     <div class="information">
                         <h1 id="h12"></h1>
@@ -72,13 +87,16 @@
                         </div>
                     </div>
                 </div>
+                <!-- Scoreboard Ends -->
+                <!-- Timeline  -->
             <div class="timeline">
-                <h3>This Over:</h3>
+                <h3 id="thisOver"></h3>
                 <h3 id="timelineOvers"> </h3>
             </div>
+            <!-- Timeline -->
     <div id="btn">
         <div class="scoringButtons">
-            <label for="">
+            <label>
                 <div class="first">
                     
                      <!-- 0 BUTTON -->
@@ -157,6 +175,7 @@
         </div>
 
     </div>
+    <!-- Copyright -->
     <footer>
         <span id="symb">&copy;</span> Copyright SKIT 2023
     </footer>

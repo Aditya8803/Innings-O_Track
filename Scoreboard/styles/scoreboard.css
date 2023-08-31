@@ -11,9 +11,9 @@
 
 .head {
     font-family: Arial, sans-serif;
-    margin-left: 29%;
+    margin-left: auto;
     display: flex;
-    font-size: 2vw;
+    font-size: 3vw;
     color: white;
 }
 
@@ -21,6 +21,7 @@
     margin-top: 3vmax;
     display: flex;
     align-items: center;
+    /* font-size: 20px; */
 }
 
 .ball {
@@ -33,7 +34,7 @@
 }
 
 #bat {
-    height: 6vw;
+    height: 8vw;
     margin-top:2vmax;
     background-color: rgba(0, 0, 0, 0);
     transform: rotate(10deg);
@@ -121,7 +122,6 @@
     margin-bottom: 0.8vh;
 
 }
-
 .scoringButtons .first,
 .scoringButtons .second,
 .scoringButtons .third,
@@ -130,7 +130,7 @@
     display: flex;
     justify-content: center;
     margin: auto;
-    margin-top: 0.8vh;
+    margin-top:0.8vh;
     width: 90%;
     align-items: center;
 
@@ -152,6 +152,7 @@ input[type=submit] {
     font-size: 3vmax;
     display: flex;
     justify-content: center;
+
 }
 
 .timeline h3 {
@@ -241,11 +242,11 @@ input[type=submit] {
     color: white
 }
 
-#zeroButton:hover {
-    background-color: white;
+/* #zeroButton:hover {
+    background-color:#fff;
     box-shadow: 0.33vmax 0.33vmax #ddd;
     color: #000;
-}
+} */
 
 .scorediv {
     margin-top: 1vh;
@@ -300,4 +301,24 @@ text-align: center;
 .sub{
     display: flex;
     justify-content: space-around;
-}
+} 
+/**/
+a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 16px;
+  }
+  
+  a:hover {
+    background-color: #d7e4e1;
+  }
+  
+  .previous {
+    background-color: #f1f1f1;
+    color: black;
+  }
+  
+  .round {
+    border-radius: 50%;
+  }
+
